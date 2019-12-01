@@ -26,11 +26,11 @@ public class MouseLook : MonoBehaviour
         xRotation -= mouseY;
         if (gameObject.GetComponent<PortalGrab>().isHolding)
         {
-            xRotation = Mathf.Clamp(xRotation, -90f, 50f);
+            xRotation = Mathf.Clamp(xRotation, -89f, 50f);
         }
         else
         {
-            xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+            xRotation = Mathf.Clamp(xRotation, -89f, 89f);
         }
 
         transform.localRotation = Quaternion.Euler(xRotation, 0, 0);
