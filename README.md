@@ -1,7 +1,7 @@
 # Portal-a-New-Story
 Source Repo for Portal: A New Story
 
-#RULES
+# RULES
 Hello everyone,
 please plan with others before making changes to the project.
 If you are developing use the 2019.2.14f1 version of unity with the modules for Windows, Web GL and Mac.
