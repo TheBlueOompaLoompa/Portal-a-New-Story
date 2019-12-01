@@ -70,7 +70,9 @@
     <Compile Include="Assets\Scripts\PortalGrab.cs" />
     <Compile Include="Assets\Scripts\PortalHideObjects.cs" />
     <Compile Include="Assets\Scripts\PortalLooker.cs" />
+    <Compile Include="Assets\Scripts\PortalObject.cs" />
     <Compile Include="Assets\Scripts\PortalSurface.cs" />
+    <Compile Include="Assets\Scripts\PortalTransport.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Unity/Portal a New Story/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
