@@ -92,6 +92,7 @@ GameObject:
   - component: {fileID: 1002501165608813770}
   - component: {fileID: 1510090315352113188}
   - component: {fileID: -1668228506598924346}
+  - component: {fileID: -8028777251931093523}
   m_Layer: 0
   m_Name: Portal B
   m_TagString: Portal B
@@ -155,8 +156,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allObjects: []
+  hidden: 
   looker: {fileID: 0}
   cam: {fileID: 7933218613185068467}
+--- !u!114 &-8028777251931093523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5796281714329566790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb930401d65a06749ad595fcbed2576e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7933218613185068467
 GameObject:
   m_ObjectHideFlags: 0

@@ -57,12 +57,10 @@ public class PortalHideObjects : MonoBehaviour
                     if (GameObject.FindGameObjectWithTag("Portal A").GetComponent<PortalHideObjects>().hidden[x])
                     {
                         allObjects[x].layer = 12;
-                        Debug.Log(allObjects[x].name);
                     }
                     else
                     {
                         allObjects[x].layer = 10;
-                        Debug.Log(allObjects[x].name);
                     }
                 }
                 else
@@ -70,12 +68,10 @@ public class PortalHideObjects : MonoBehaviour
                     if (GameObject.FindGameObjectWithTag("Portal B").GetComponent<PortalHideObjects>().hidden[x])
                     {
                         allObjects[x].layer = 12;
-                        Debug.Log(allObjects[x].name);
                     }
                     else
                     {
                         allObjects[x].layer = 11;
-                        Debug.Log(allObjects[x].name);
                     }
                 }
             }
