@@ -23,5 +23,10 @@ public class EmancipationGrill : MonoBehaviour
         {
             Destroy(other.gameObject);
         }
+        if (other.gameObject.tag == "Player")
+        {
+            GameObject.FindGameObjectWithTag("Portal A").GetComponent<Transform>().position = Vector3.zero;
+            GameObject.FindGameObjectWithTag("Portal B").GetComponent<Transform>().position = Vector3.zero;
+        }
     }
 }
