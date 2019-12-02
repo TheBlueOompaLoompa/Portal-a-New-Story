@@ -48,7 +48,7 @@ public class PortalTransport : MonoBehaviour
         {
             dupe = Instantiate(movingObject);
             dupe.GetComponent<PortalObject>().isDuplicate = true;
-            spawnedDupe = true;
+            //spawnedDupe = true;
         }
         if (spawnedDupe)
         {
