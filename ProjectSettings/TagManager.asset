@@ -9,6 +9,8 @@ TagManager:
   - portalable
   - Portal A
   - Portal B
+  - Portal A Point
+  - Portal B Point
   layers:
   - Default
   - TransparentFX

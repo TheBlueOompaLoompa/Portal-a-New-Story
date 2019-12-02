@@ -5,15 +5,21 @@ using UnityEngine;
 public class PortalHideObjects : MonoBehaviour
 {
     public GameObject[] allObjects;
+    public int[] sortingLayers;
     public bool[] hidden;
     public GameObject looker;
     public GameObject cam;
 
-    private void Start()
+    void Start()
     {
         allObjects = UnityEngine.Object.FindObjectsOfType<GameObject>();
-        bool[] x = new bool[allObjects.Length];
-        hidden = x;
+        hidden = new bool[allObjects.Length];
+        sortingLayers = new int[allObjects.Length];
+        for(int i = 0; i < allObjects.Length; i++)
+        {
+            sortingLayers[i] = allObjects[i].layer;
+        }
+        
     }
 
     private void Update()
@@ -31,14 +37,21 @@ public class PortalHideObjects : MonoBehaviour
                 }
                 if (go.layer == 10)
                 {
-                    go.layer = 0;
+                    for (int i = 0; i < allObjects.Length; i++)
+                    {
+                        allObjects[i].layer = sortingLayers[i];
+                    }
                 }
             }
             else
             {
                 if (go.layer == 11)
                 {
-                    go.layer = 0;
+                    for (int i = 0; i < allObjects.Length; i++)
+                    {
+                        allObjects[i].layer = sortingLayers[i];
+                        Debug.Log(i);
+                    }
                 }
                 if (go.layer == 12)
                 {
@@ -49,6 +62,7 @@ public class PortalHideObjects : MonoBehaviour
         GameObject hideObject = looker.gameObject.GetComponent<PortalLooker>().doRaycast();
         for(int x = 0; x < allObjects.Length; x++)
         {
+            Debug.Log(x);
             if(hideObject == allObjects[x])
             {
                 hidden[x] = true;
