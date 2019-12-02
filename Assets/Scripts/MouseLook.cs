@@ -28,7 +28,7 @@ public class MouseLook : MonoBehaviour
         {
             xRotation = Mathf.Clamp(xRotation, -89f, 50f);
         }
-        else
+        else 
         {
             xRotation = Mathf.Clamp(xRotation, -89f, 89f);
         }
