@@ -11,8 +11,7 @@ GameObject:
   - component: {fileID: 1232128425002820317}
   - component: {fileID: 5117321317357554604}
   - component: {fileID: 7804708204113895118}
-  - component: {fileID: 4051705469612484952}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Stm_button01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79,79 +78,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &4051705469612484952
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5546374980503929351}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 7624643433848928969, guid: 4b711a548f772c240bad436fa998791d, type: 3}
---- !u!1 &5549698133208747910
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9182699416937256175}
-  - component: {fileID: 1338013854041983606}
-  - component: {fileID: 8903272783055322726}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &9182699416937256175
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5549698133208747910}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 7245162897556535381}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &1338013854041983606
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5549698133208747910}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: -9209040867192977506, guid: 4b711a548f772c240bad436fa998791d, type: 3}
---- !u!114 &8903272783055322726
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5549698133208747910}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a01e51e8cb8976142b0618ec4c0e9531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ButtonThing: {fileID: 2222669683058678993}
 --- !u!1 &5967450497247119942
 GameObject:
   m_ObjectHideFlags: 0
@@ -162,7 +88,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7245162897556535381}
   m_Layer: 0
-  m_Name: Stand Button
+  m_Name: portalbutton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -181,7 +107,6 @@ Transform:
   m_Children:
   - {fileID: 1232128425002820317}
   - {fileID: 2222669683058678993}
-  - {fileID: 9182699416937256175}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -196,7 +121,7 @@ GameObject:
   - component: {fileID: 2222669683058678993}
   - component: {fileID: 6603788303573704811}
   - component: {fileID: 765256439835336146}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Stm_button02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
