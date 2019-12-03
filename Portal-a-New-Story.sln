@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{65549662-3F3E-11E7-A80D-935E373A9CB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.LWRPExamples", "Unity.LWRPExamples.csproj", "{703CA169-87A1-85F9-3FCA-03558080D431}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65549662-3F3E-11E7-A80D-935E373A9CB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65549662-3F3E-11E7-A80D-935E373A9CB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65549662-3F3E-11E7-A80D-935E373A9CB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65549662-3F3E-11E7-A80D-935E373A9CB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{703CA169-87A1-85F9-3FCA-03558080D431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{703CA169-87A1-85F9-3FCA-03558080D431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{703CA169-87A1-85F9-3FCA-03558080D431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{703CA169-87A1-85F9-3FCA-03558080D431}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
