@@ -10,7 +10,10 @@ public class Utilities : MonoBehaviour
 
     private void Start()
     {
-        loadingLoadLevel();
+        if (SceneManager.GetActiveScene().buildIndex == SceneManager.sceneCountInBuildSettings - 1)
+        {
+            loadingLoadLevel();
+        }
     }
 
     public void Play()
