@@ -62,7 +62,6 @@ public class PortalHideObjects : MonoBehaviour
         GameObject hideObject = looker.gameObject.GetComponent<PortalLooker>().doRaycast();
         for(int x = 0; x < allObjects.Length; x++)
         {
-            Debug.Log(x);
             if(hideObject == allObjects[x])
             {
                 hidden[x] = true;
