@@ -45,22 +45,15 @@ public class PlayerMovement : MonoBehaviour
             move = (transform.right * x + transform.forward * z);
         }
 
-        if (isGrounded)
+        if (Input.GetKey(KeyCode.LeftShift))
         {
-            if (Input.GetKey(KeyCode.LeftShift))
-            {
-                isRunning = true;
-                controller.Move(move * (speed + runSpeed) * Time.deltaTime);
-            }
-            else
-            {
-                isRunning = false;
-                controller.Move(move * speed * Time.deltaTime);
-            }
+            isRunning = true;
+            controller.Move(move * (speed + runSpeed) * Time.deltaTime);
         }
         else
         {
-            controller.Move(move * (speed - (speed / 100)) * Time.deltaTime);
+            isRunning = false;
+            controller.Move(move * speed * Time.deltaTime);
         }
 
         if(Input.GetButtonDown("Jump") && isGrounded)

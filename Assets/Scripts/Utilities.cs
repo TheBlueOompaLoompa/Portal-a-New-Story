@@ -17,6 +17,11 @@ public class Utilities : MonoBehaviour
         }
     }
 
+    public void loadNextLevel()
+    {
+        PlayerPrefs.SetInt("level", SceneManager.GetActiveScene().buildIndex);
+    }
+
     public void Play()
     {
         PlayerPrefs.SetInt("level", int.Parse(lvlnum.text));
