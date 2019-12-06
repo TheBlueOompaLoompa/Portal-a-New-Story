@@ -7,6 +7,7 @@ using TMPro;
 public class Utilities : MonoBehaviour
 {
     public TMP_Text MSpeed;
+    public TMP_InputField lvlnum;
 
     private void Start()
     {
@@ -18,7 +19,7 @@ public class Utilities : MonoBehaviour
 
     public void Play()
     {
-        PlayerPrefs.SetInt("level", 1);
+        PlayerPrefs.SetInt("level", int.Parse(lvlnum.text));
         SceneManager.LoadScene(SceneManager.sceneCountInBuildSettings - 1);
     }
 

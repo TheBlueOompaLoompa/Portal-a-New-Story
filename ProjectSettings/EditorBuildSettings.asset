@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/Level00 Spawn.unity
     guid: 03b84add8845e9147ae7f819b2f7f812
   - enabled: 1
+    path: Assets/Scenes/Levels/Level01 Introduce Gravity Flip.unity
+    guid: 2e8d747cb31efb44a816122ccd88f17c
+  - enabled: 1
     path: Assets/Scenes/Loading.unity
     guid: 48d20b7c44fcf6b448526bf4822fba38
   m_configObjects: {}
