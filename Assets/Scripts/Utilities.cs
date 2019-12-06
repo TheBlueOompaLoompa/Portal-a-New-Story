@@ -19,7 +19,8 @@ public class Utilities : MonoBehaviour
 
     public void loadNextLevel()
     {
-        PlayerPrefs.SetInt("level", SceneManager.GetActiveScene().buildIndex);
+        PlayerPrefs.SetInt("level", SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.sceneCountInBuildSettings - 1);
     }
 
     public void Play()

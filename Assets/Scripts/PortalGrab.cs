@@ -20,7 +20,7 @@ public class PortalGrab : MonoBehaviour
                 RaycastHit hit;
                 if (Physics.Raycast(transform.position, transform.forward, out hit))
                 {
-                    if (hit.collider.gameObject.tag == "grab" && hit.distance < 4)
+                    if (hit.collider.gameObject.tag == "grab" && hit.distance < 4.5)
                     {
                         objectToHold = hit.collider.gameObject;
                         isHolding = true;
