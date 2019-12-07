@@ -702,6 +702,7 @@
     <Compile Include="Assets\Scripts\AudioTrigger.cs" />
     <Compile Include="Assets\Scripts\ButtonTop.cs" />
     <Compile Include="Assets\Scripts\EmancipationGrill.cs" />
+    <Compile Include="Assets\Scripts\EntranceDoor.cs" />
     <Compile Include="Assets\Scripts\GravityFlipZone.cs" />
     <Compile Include="Assets\Scripts\LevelExit.cs" />
     <Compile Include="Assets\Scripts\MouseLook.cs" />
