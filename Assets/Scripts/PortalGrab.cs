@@ -13,6 +13,14 @@ public class PortalGrab : MonoBehaviour
 
     void Update()
     {
+        if (isHolding)
+        {
+            if(Vector3.Distance(holdPoint.position, objectToHold.transform.position) > 2f)
+            {
+                isHolding = false;
+            }
+        }
+
         if (Input.GetKeyDown(KeyCode.E))
         {
             if (!isHolding)
