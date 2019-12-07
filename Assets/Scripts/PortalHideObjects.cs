@@ -50,7 +50,6 @@ public class PortalHideObjects : MonoBehaviour
                     for (int i = 0; i < allObjects.Length; i++)
                     {
                         allObjects[i].layer = sortingLayers[i];
-                        Debug.Log(i);
                     }
                 }
                 if (go.layer == 12)
